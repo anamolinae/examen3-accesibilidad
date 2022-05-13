@@ -1,0 +1,92 @@
+img.card-img-top.cardeimagen {
+    max-width: 15%;
+}
+
+.fivecolums{
+    width: 20%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+p.descuentorojo{
+    background-color:rgb(236, 133, 133) !important;
+    color:white;
+    border-radius: 3px;
+    width: fit-content;
+}
+
+.card{
+    justify-content:space-between;
+    margin:2%;
+    max-height: 15%;
+    max-width: 15%;
+    min-width: 10rem;
+}
+.preciocondescuentorojoyanterior{
+
+    justify-content:flex-start;
+    flex-wrap: nowrap;
+    display: flex;
+    font-size:large;
+}
+.precioanterior{
+    color:black;
+    justify-content: space-between;
+    margin: .5%;
+}
+.precioyacondescuentorojo{
+    color:red;
+    justify-content: space-between;
+    margin: .5%;
+}
+.precioporlitro{
+    color:gray;
+}
+.expliacionproducto{
+    color:rgb(53, 53, 53);
+}
+div.anadirproducto{
+    background-color:rgb(223, 223, 223);
+    border-radius: 10px;
+    width: 100%;
+    justify-content:space-between;
+    justify-content:center;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    margin: .4%;
+    align-items:baseline;
+    height: auto;
+
+}
+.mas .menos .numero{
+    display: flex;
+    justify-content:center;
+    height: auto;
+
+}
+
+.añadiracarro{
+    background-color: rgb(51, 128, 51);
+    color:white;
+   
+}
+/*footer  
+    background-color:rgb(238, 238, 238);
+    color:black;
+    justify-content:center;
+    flex-wrap: nowrap;
+    
+} */
+a{
+    text-decoration: none
+
+}
+
+#footer {
+    text-decoration: none;
+}
